@@ -17,6 +17,20 @@ html {
   line-height: 1.4;
 }
 
+@font-face {
+  font-family: 'Brittany Signature';
+  src: url('../font/BrittanySignatureRegular.eot');
+  src: url('../font/font/BrittanySignatureRegular.eot?#iefix') format('embedded-opentype'),
+      url('../font/BrittanySignatureRegular.woff2') format('woff2'),
+      url('../font/BrittanySignatureRegular.woff') format('woff'),
+      url('../font/BrittanySignatureRegular.svg#BrittanySignatureRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -95,6 +109,16 @@ textarea {
   html, body {
     font-family: 'Open Sans', sans-serif;
     height: 100%;
+  }
+
+  .frase p {
+    width: 25vw;
+    margin: 0;
+    font-size: 1.8vw;
+    text-align: end;
+    color: #FCFCFC;
+    font-weight: lighter;
+    font-family: 'Brittany Signature';
   }
 
    .fundo-rosa {
